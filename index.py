@@ -19,3 +19,23 @@ def processar_resposta(resposta, nome):
          print(f'{os.linesep}{nome} Você pode simcomeçar sua  jornada  no mundo da  programação usando a  linguagem python, pois ela é uma linguagem siplesdese  entender e, por isso, perfeita para quem está começando.')
        
 
+def start():
+    #apresentar o bot
+    print('Olá! Bem-vindo  ao bot')
+
+    #solicitar o nome do  usuário
+    nome = ''
+    str(input('Digite o seu  nome'))
+
+    #enviar uma msg de boas vindas
+    print(f'Bem-vindo, {nome}!')
+
+    while True:
+            resposta = input(f'O que  você gostaria de saber hoje? \n{os.linesep} [1] Vale a pena aprender a linguagem python? \n{os.linesep} [2] O que  posso construir usando a linguagem python? \n {os.linesep} [3] Posso começar a estudar python como minha primeira linguagem de programação ou preciso escolher outra para entrar na área')
+
+
+    #processar a resposta
+    processa_resposta(resposta, nome)
+
+if __name__ == '__main__':
+    start()
