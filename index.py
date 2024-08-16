@@ -1,4 +1,8 @@
 import os
+import colorama
+from colorama import init, Fore
+
+colorama.init()
 
 def processar_resposta(resposta, nome):
     if resposta == '1':
