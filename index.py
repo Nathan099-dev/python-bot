@@ -2,7 +2,8 @@ import os
 import colorama
 from colorama import init, Fore
 
-colorama.init()
+init()
+RED = Fore.RED
 
 def processar_resposta(resposta, nome):
     if resposta == '1':
@@ -23,7 +24,8 @@ def processar_resposta(resposta, nome):
 
     if resposta == '3':
          print(f'{os.linesep}{nome} Você pode sim começar sua jornada  no mundo da  programação usando a  linguagem python, pois ela é uma linguagem simples de se entender e, por isso, perfeita para quem está começando.')
-       
+    else:
+        print(f'{RED} Coloque uma as opções acima')
 
 def start():
     #apresentar o bot
