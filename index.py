@@ -28,7 +28,7 @@ def processar_resposta(resposta, nome):
              print(f'{os.linesep}{nome} Você pode sim começar sua jornada  no mundo da  programação usando a  linguagem python, pois ela é uma linguagem simples de se entender e, por isso, perfeita para quem está começando.')
         else:
             print(f'{RED} Escolha uma das opções acima')
-            
+
     except KeyboardInterrupt:
         print('Programa interrompido')
         sys.exit()
@@ -46,7 +46,7 @@ def start():
     print(f'Bem-vindo, {nome}!')
 
     while True:
-            resposta = input(f'O que  você gostaria de saber hoje? \n{os.linesep} [1] Vale a pena aprender a linguagem python? \n{os.linesep} [2] O que  posso construir usando a linguagem python? \n {os.linesep} [3] Posso começar a estudar python como minha primeira linguagem de programação ou preciso escolher outra para entrar na área')
+            resposta = input(f'O que  você gostaria de saber hoje? \n{os.linesep} [1] Vale a pena aprender a linguagem python? \n{os.linesep} [2] O que  posso construir usando a linguagem python? \n {os.linesep} [3] Posso começar a estudar python como minha primeira linguagem de programação ou preciso escolher outra para entrar na área? \n {os.linesep} [4] Qal a capital do Brasil?\n{os.linesep} [5] Como criar um botão com borda arredondada usando html, css e javascript?')
 
 
     #processar a resposta
