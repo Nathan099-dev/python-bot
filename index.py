@@ -28,6 +28,7 @@ def processar_resposta(resposta, nome):
              print(f'{os.linesep}{nome} Você pode sim começar sua jornada  no mundo da  programação usando a  linguagem python, pois ela é uma linguagem simples de se entender e, por isso, perfeita para quem está começando.')
         else:
             print(f'{RED} Escolha uma das opções acima')
+            
     except KeyboardInterrupt:
         print('Programa interrompido')
         sys.exit()
