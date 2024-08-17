@@ -26,6 +26,12 @@ def processar_resposta(resposta, nome):
 
         if resposta == '3':
              print(f'{os.linesep}{nome} Você pode sim começar sua jornada  no mundo da  programação usando a  linguagem python, pois ela é uma linguagem simples de se entender e, por isso, perfeita para quem está começando.')
+             
+        if resposta == '4':
+             print(f'{os.linesep}{nome} Acapital do Brasil é Brasília')
+
+        if resposta == '5':
+             print(f'{os.linesep}{nome} Para isso, através do css, será nescessário usar a propriedade border-radius')
         else:
             print(f'{RED} Escolha uma das opções acima')
 
